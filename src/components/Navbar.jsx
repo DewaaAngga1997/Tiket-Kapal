@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../public/logo.png";
+import user_icon from "../assets/icons/user.png";
 
 export default function Navbar() {
   return (
@@ -30,16 +31,21 @@ export default function Navbar() {
             </a>
             <a
               href="#"
-              className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
+              className="text-white font-medium text-[18px] hover:text-yellow active:text-yellow focus:text-yellow"
             >
               About Us
             </a>
           </div>
           <div className="flex items-center gap-6">
-            <button className="px-4 py-2 border border-white rounded-full">
-              Login
+            <button className="flex items-center gap-2 px-4 py-2 text-white border border-white rounded-full hover:border-yellow">
+              <img
+                src={user_icon}
+                alt="userlogo"
+                className="w-[15px] h-[15px]"
+              />
+              <span>Login</span>
             </button>
-            <button className="px-4 py-2 border border-white bg-white text-[#008AA1] rounded-full">
+            <button className="px-4 py-2 border border-white bg-white text-[#008AA1] rounded-full hover:bg-yellow hover:border-yellow hover:text-white">
               Register
             </button>
           </div>
