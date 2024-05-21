@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../../public/logo.png";
+import logo from "/logo.png";
 import user_icon from "../assets/icons/user.png";
 
 export default function Navbar() {
   return (
-    <nav className="flex h-[80px] w-full backdrop-blur-sm fixed justify-center items-center z-20">
+    <nav className="flex h-[90px] w-full backdrop-blur-sm fixed justify-center items-center z-20">
       <div className="px-[70px] flex justify-between w-full">
         <div className="flex">
           <img src={logo} alt="logo" className="h-14" />
