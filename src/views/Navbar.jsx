@@ -13,25 +13,25 @@ export default function Navbar() {
           <div className="flex items-center gap-[58px]">
             <a
               href="#"
-              className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
+              className="text-white font-medium font-Roboto text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
             >
               Home
             </a>
             <a
               href="#"
-              className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
+              className="text-white font-medium font-Roboto text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
             >
               Gallery
             </a>
             <a
               href="#"
-              className="text-white font-medium text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
+              className="text-white font-medium font-Roboto text-[18px] hover:text-[#FFC947] active:text-[#FFC947] focus:text-[#FFC947]"
             >
               Booking Check
             </a>
             <a
               href="#"
-              className="text-white font-medium text-[18px] hover:text-yellow active:text-yellow focus:text-yellow"
+              className="text-white font-medium font-Roboto text-[18px] hover:text-yellow active:text-yellow focus:text-yellow"
             >
               About Us
             </a>
@@ -43,9 +43,9 @@ export default function Navbar() {
                 alt="userlogo"
                 className="w-[15px] h-[15px]"
               />
-              <span>Login</span>
+              <span className="font-Roboto">Login</span>
             </button>
-            <button className="px-4 py-2 border border-white bg-white text-[#008AA1] rounded-full hover:bg-yellow hover:border-yellow hover:text-white">
+            <button className="px-4 py-2 border font-Roboto border-white bg-white text-[#008AA1] rounded-full hover:bg-yellow hover:border-yellow hover:text-white">
               Register
             </button>
           </div>
